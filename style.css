@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Rokkitt:wght@100&display=swap');
+.clear {
+	clear: both;
+}
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-left: 8%;
+
+}
+#headshot img{
+	border-radius: 50%;
+}
+#name {
+	float: left;
+	position: absolute;
+	left: 17.5%;
+	font-size: 24px;
+	top: -20px;
+	font-weight: 500;
+}
+#name h1{
+	font-family: 'Rokkitt', 'Helvetica', 'Arial',sans-serif;
+
+
+}
+#name h2{
+	font-family: 'Lato', 'Helvetica' , 'Arial' , sans-serif;
+	margin-top: -40px;
+
+}
+.sectionTitle {
+	float: left;
+	width: 25%;
+	color: #cf8a05;
+	font-family: 'Rokkitt', 'Helvetica', 'Arial',sans-serif;
+	font-style: italic;
+	font-weight: 100;
+}
+.sectionTitle h1{
+	font-size: 36px;
+	margin-left: 40%;
+}
+.sectionContent {
+	float: right;
+	width: 72.5%;
+	font-family: 'Lato', 'Helvetica' , 'Arial' , sans-serif;
+	margin-top: 1px;
+	font-size: 24px;
+}
+.sectionContent h2{
+	font-size: 30px;
+	font-weight: 500;
+	font-family: 'Rokkitt';
+}
+.sectionContent p{
+	font-weight: 300;
+	line-height: 1.4;
+}
+hr{
+	max-width: 82.5%;
+	border: none;
+	height: 2px;
+	background-color: #dedede;
+}
+.top{
+	max-width: 90%;
+	margin-top: 2%;
+	height: 3px;
+	background-color: #cf8a05;
+}
+.subDetails{
+	font-style: italic;
+	font-size: 20px;
+}
+.keySkills{
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: column;
+	height:100px ;
+	list-style-type: none;
+}
+#contactDetails {
+	float: right;
+	margin-right: 10%;
+}
+#contactDetails li:hover{
+	background: #ffffcc;
+}
+#contactDetails li{
+	list-style-type: none;
+	text-decoration: none;
+	font-size: 22px;
+}
+#mainDetails{
+	border-style: hidden;
+	border-width: 2px;
+}
+section{
+	border-style: hidden;
+	border-width: 1px;
+	width: 90%;
+}
